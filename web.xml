@@ -20,6 +20,26 @@
 <url-pattern>/S11B</url-pattern>  
 </servlet-mapping>  
 
+<servlet>  
+<servlet-name>S30B</servlet-name>  
+<servlet-class>S30B</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>S30B</servlet-name>  
+<url-pattern>/S30B</url-pattern>  
+</servlet-mapping>  
+
+<servlet>  
+<servlet-name>Slip18B</servlet-name>  
+<servlet-class>Slip18B</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>Slip18B</servlet-name>  
+<url-pattern>/Slip18B</url-pattern>  
+</servlet-mapping>  
+
 <!--<servlet>  
     <servlet-name>login</servlet-name>  
     <servlet-class>LoginServlet</servlet-class>  
